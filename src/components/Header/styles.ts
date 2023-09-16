@@ -7,7 +7,7 @@ justify-content: space-between;
 padding: 0 40px;
 width: 100%;
 height: 89px;
-background: linear-gradient(136deg, #02383F 0%, #026155 100%);
+background: linear-gradient(136deg, #02383F 0%, #026151 100%);
 `
 export const Logo = styled.div`
 color: #fff;
