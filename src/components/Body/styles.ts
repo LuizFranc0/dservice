@@ -11,13 +11,13 @@ background-size: cover;
 export const partOne = styled.div`
 display: flex;
 flex-direction: column;
-width: 50%;
-padding: 220px 50px;
+width: 60%;
+padding: 220px 150px;
 `
 export const partTwo = styled.div`
 display: flex;
 flex-direction: column;
-width: 50%;
+width: 40%;
 `
 
 export const Title = styled.div`
