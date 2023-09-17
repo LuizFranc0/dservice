@@ -24,9 +24,9 @@ export default function Description() {
           </p>
         </S.Information>
       </S.partOne>
-      <S.partTwo>
+      {/* <S.partTwo>
         <img src={pictureOne} alt="imagem um"/>
-      </S.partTwo>
+      </S.partTwo> */}
     </S.Container>
   )
 }

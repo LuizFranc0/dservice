@@ -1,12 +1,23 @@
-import styled from "styled-components";
-import background from '../../img/background.png'
+import styled, { keyframes } from "styled-components";
+
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Container = styled.div`
+position: relative;
 display: flex;
+flex-direction: column;
 width: 100%;
-height: auto;
-background-image: url(${background});
-background-size: cover;
+background: #02383F;
+`
+export const ContainerPart = styled.div`
+display: flex;
 `
 export const partOne = styled.div`
 display: flex;
@@ -31,3 +42,23 @@ p{
   color: #fff;
 }
 `
+export const Detail = styled.div`
+width: 100%;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+`
+export const Circle = styled.div`
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #02383f;
+  border: 3px solid #fff;
+  top: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: ${rotate} 8s linear infinite;
+`;

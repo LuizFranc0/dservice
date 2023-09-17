@@ -11,16 +11,14 @@ const rotate = keyframes`
 
 export const Container = styled.div`
 width: 100%;
-height: 350px;
+height: 450px;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
 background-color: #02383F;
 flex-direction: column;
 position: relative;
 `
-
 export const ContainerHistory = styled.div`
 width: 50%;
 color: #fff;
@@ -31,7 +29,7 @@ h1{
 }
 p{
   text-align: justify;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 `
 export const Detail = styled.div`
